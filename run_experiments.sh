@@ -31,7 +31,7 @@ python probabilistic_filter/filter_demos.py --dataset_path robomimic/datasets/sq
 
 # Generate configs and run policy training
 python robomimic/robomimic/scripts/hyperparam_helper.py --config config/base.json --script config/experiment/run_training.sh
-bash config/experiment/run_training0.sh
+bash config/experiment/run_training.sh
 
 # Evaluate trained policies (Table 2)
 # Put trained policy you want to evaluate below:
